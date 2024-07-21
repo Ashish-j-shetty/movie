@@ -66,7 +66,7 @@ function displayBlock(movies) {
     movieName.appendChild(title);
     movieContainer.appendChild(movieOuterCard);
     movieOuterCard.addEventListener("click", () => {
-      window.location.href = `/movie.html?movieId=${imdbID}`;
+      window.location.href = `movie.html?movieId=${imdbID}`;
     });
   });
 }
